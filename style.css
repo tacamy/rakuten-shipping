@@ -14,6 +14,7 @@
   -webkit-transition: height 0.1s linear;
   transition: height 0.1s linear;
   padding: 10px;
+  text-align: left;
 }
 .cx-rakuten-shipping--hidden .cx-rakuten-shipping__content {
   height: 0;
