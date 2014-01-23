@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "楽天市場 カンタン送料表示",
-  "version": "0.1",
+  "name": "楽天カンタン送料表示",
+  "version": "1.0",
 
   "description": "楽天市場の商品ページ内に、送料を表示できるボタンを追加します。",
   "icons": {
