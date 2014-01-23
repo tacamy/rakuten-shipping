@@ -29,11 +29,6 @@
       $button.on('click', function() {
         $block.toggleClass('cx-rakuten-shipping--hidden');
       });
-
-    } else {
-
-      return;
-
     }
   });
 
