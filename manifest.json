@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "楽天市場 カンタン送料表示",
+  "version": "0.1",
+
+  "description": "楽天市場の商品ページ内に、送料を表示できるボタンを追加します。",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "permissions": [
+    "http://www.rakuten.co.jp/*"
+  ],
+  "content_scripts": [{
+    "matches": ["http://item.rakuten.co.jp/*"],
+    "css": ["style.css"],
+    "js": ["jquery-2.0.3.min.js", "script.js"]
+  }]
+}

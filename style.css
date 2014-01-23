@@ -1,0 +1,54 @@
+.cx-rakuten-shipping {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2147483648;
+  width: 100%;
+  border-top: 5px solid #bf0000;
+  background: #fff;
+}
+
+.cx-rakuten-shipping__content {
+  overflow: auto;
+  height: 500px;
+  -webkit-transition: height 0.1s linear;
+  transition: height 0.1s linear;
+  padding: 10px;
+}
+.cx-rakuten-shipping--hidden .cx-rakuten-shipping__content {
+  height: 0;
+  padding: 0;
+}
+
+.cx-rakuten-shipping__button {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: #bf0000;
+  border-radius: 7px 7px 0 0;
+  color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+.cx-rakuten-shipping__button:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-width: 8px 5px;
+  border-top-color: #fff;
+  margin: 0 5px 0 0;
+}
+.cx-rakuten-shipping--hidden .cx-rakuten-shipping__button:before {
+  top: -1px;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
